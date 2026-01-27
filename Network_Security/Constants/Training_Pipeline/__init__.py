@@ -11,6 +11,9 @@ FILE_NAME = "phishingData.csv"
 TRAIN_FILE_NAME = "train.csv"
 TEST_FILE_NAME = "test.csv"
 
+SAVED_MODEL_DIR = os.path.join("saved_models") 
+MODEL_FILE_NAME = "model.pkl"
+
 """
 Data Ingestion related constant 
 """
@@ -57,3 +60,13 @@ DATA_TRANSFORMATION_TRANSFORMED_IMPUTER_PARAMS : dict = {
     "n_neighbors" : 3,
     "weights" : "uniform",
 }
+
+"""
+Model Trainer related constants
+"""
+
+MODEL_TRAINER_DIR_NAME = "model_trainer"
+MODEL_TRAINER_TRAINED_MODEL_DIR = "trained_model"
+MODEL_TRAINER_TRAINED_MODEL_NAME = "model.pkl"
+MODEL_TRAINER_EXPECTED_SCORE = 0.6
+MODEL_TRAINER_OVER_FITTING_UNDER_FITTING_THRESHOLD = 0.05

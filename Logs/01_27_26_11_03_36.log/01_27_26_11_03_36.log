@@ -1,0 +1,25 @@
+[2026-01-27 11:03:37,487] 16 root - INFO - Initiating Data Ingestion
+[2026-01-27 11:03:40,890] 73 root - INFO - Performed train test split on the Dataframe
+[2026-01-27 11:03:40,890] 74 root - INFO - Exited split_data_as_train_test method of Data_Ingestion Class
+[2026-01-27 11:03:40,890] 77 root - INFO - Exporting train and test file path
+[2026-01-27 11:03:40,930] 80 root - INFO - Exported train and test file path
+[2026-01-27 11:03:40,930] 18 root - INFO - Data Ingestion Completed
+[2026-01-27 11:03:40,936] 22 root - INFO - Initiating Data Validation
+[2026-01-27 11:03:40,978] 34 root - INFO - Required number of columns : 2
+[2026-01-27 11:03:40,978] 35 root - INFO - DataFrame has columns : 31
+[2026-01-27 11:03:40,979] 34 root - INFO - Required number of columns : 2
+[2026-01-27 11:03:40,979] 35 root - INFO - DataFrame has columns : 31
+[2026-01-27 11:03:41,111] 24 root - INFO - Data Validation Completed
+[2026-01-27 11:03:41,111] 27 root - INFO - data transformation started
+[2026-01-27 11:03:41,111] 43 root - INFO - Entered initiate_data_transformation mehtod of dataTransformation class
+[2026-01-27 11:03:41,111] 45 root - INFO - Starting data tranformation
+[2026-01-27 11:03:41,127] 33 root - INFO - Entered get_data_transformer_object in DataTransformation class
+[2026-01-27 11:03:41,127] 36 root - INFO - Initalize KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2026-01-27 11:03:41,135] 43 root - INFO - Entered the Save Object method of Main Utils Class
+[2026-01-27 11:03:41,137] 47 root - INFO - Exited the save_bject method of main Utils class
+[2026-01-27 11:03:41,138] 31 root - INFO - data transformation completed
+[2026-01-27 11:03:41,138] 32 root - INFO - Model Training Started
+[2026-01-27 11:03:53,611] 43 root - INFO - Entered the Save Object method of Main Utils Class
+[2026-01-27 11:03:53,623] 47 root - INFO - Exited the save_bject method of main Utils class
+[2026-01-27 11:03:53,623] 79 root - INFO - Model trainer artifact : ModelTrainerArtifact(trained_model_file_path='Artifacts\\27_01_26_11_03_36\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9910291301280113, precision_score=0.9885381057711643, recall_score=0.9935327405012127), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9790037052284891, precision_score=0.9745901639344262, recall_score=0.9834574028122415))
+[2026-01-27 11:03:53,624] 36 root - INFO - Model Training artifact Created
